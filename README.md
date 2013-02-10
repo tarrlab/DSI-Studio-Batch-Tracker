@@ -35,14 +35,19 @@ NOTE: There is a directory named "extra_files" in the directory that contains sc
 This GUI was created using [Guide](http://www.mathworks.com/discovery/matlab-gui.html). For those who have never used guide, here are some tips for getting started quickly in the context of editing the DSI Batch Tracking GUI:
 
 1. To edit the GUI for any given tracking method, type "guide" at the Matlab prompt, select the "Open Existing Gui" tab, and choose one of the .fig files to open (as mentioned above, each tracking method has a corresponding .fig file and .m file).
-2. To modify what happens when a particular button is clicked, double-click the button to show the inspector. In the inspector next to Callback, click the icon. This will automatically open the correpsonding .m file for the GUI, and take you directly to the function that controls what happens when that button is clicked. For example, doing this for the "DSI Studio" button results in 
+2. To modify what happens when a particular button is clicked, double-click the button to show the inspector. In the inspector next to Callback, click the pencil and paper icon on the left, cicled in red in the screenshot below:
 
-![screenshot](/Users/deborahjohnson/Dropbox/DSI-Studio-Scripts--Git-/DSI Studio Screenshots/callback.png)
+![screenshot](https://raw.github.com/tarrlab/DSI-Studio-Batch-Tracker/master/screenshots/callback.png)
+
+ This will automatically open the correpsonding .m file for the GUI, and take you directly to the function that controls what happens when that button is clicked. In this example (for the DSI Studio button) the .m file will open and the corresponding function will be highlighted as shown below:
+
+![screenshot2](https://raw.github.com/tarrlab/DSI-Studio-Batch-Tracker/master/screenshots/callback_autoselected_.png)
+
+
+3. In the example above, the function name, "pushbutton_dsi_studio" was not random - the name of the function can be set and changed in the Tag property using the Inspector. Here is a screenshot showing the tag for the DSI Studio button:
+
+![screenshot2](https://raw.github.com/tarrlab/DSI-Studio-Batch-Tracker/master/screenshots/tag.png)
 
 ####Recommended Tutorials
 
-There are many online resources available for those who have never used Guide. I highly recommend the series of video tutorials by Doug Hull, particularly the [Guide Basics Tutorial](http://blogs.mathworks.com/videos/2013/02/06/introduction-to-gui-building-with-guide-in-matlab/), [Handles and Other Inputs to Guide Callbacks](http://blogs.mathworks.com/pick/2008/04/17/advanced-matlab-handles-and-other-inputs-to-guide-callbacks/), and [Guide Advanced Techniques](http://www.mathworks.com/matlabcentral/fileexchange/8616-video-guide-advanced-techniques).
-
-####Tips for Getting Started Quickly
-
-1. 
+There are many online resources available for those who have never used Guide, and wish to customize the GUI with more advanced features. I highly recommend the series of video tutorials by Doug Hull, particularly the [Guide Basics Tutorial](http://blogs.mathworks.com/videos/2013/02/06/introduction-to-gui-building-with-guide-in-matlab/), [Handles and Other Inputs to Guide Callbacks](http://blogs.mathworks.com/pick/2008/04/17/advanced-matlab-handles-and-other-inputs-to-guide-callbacks/), and [Guide Advanced Techniques](http://www.mathworks.com/matlabcentral/fileexchange/8616-video-guide-advanced-techniques).
