@@ -41,8 +41,7 @@ This GUI was created using [Guide](http://www.mathworks.com/discovery/matlab-gui
 
  This will automatically open the correpsonding .m file for the GUI, and take you directly to the function that controls what happens when that button is clicked. In this example (for the DSI Studio button) the .m file will open and the corresponding function will be highlighted as shown below:
 
-![screenshot2](https://raw.github.com/tarrlab/DSI-Studio-Batch-Tracker/master/screenshots/callback_autoselected_.png)
-
+![screenshot2](https://raw.github.com/tarrlab/DSI-Studio-Batch-Tracker/master/screenshots/callback_autoselected.png)
 
 3. In the example above, the function name, "pushbutton_dsi_studio" was not random - the name of the function can be set and changed in the Tag property using the Inspector. Here is a screenshot showing the tag for the DSI Studio button:
 
